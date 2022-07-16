@@ -16,7 +16,7 @@ const Home = () => {
         </p>
         <p className="text-[#8892b0] py-2 max-w-[700px]">
           I am very eager to learn knowledge, both in terms of soft skills and technical skills. In
-          the near future, I want to become a software full stack developer.
+          the near future, I want to become a fullstack software developer.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
