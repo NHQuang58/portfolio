@@ -45,7 +45,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300 bg-dark-background">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300 bg-dark-background z-50">
       <div className="hover:cursor-pointer">
         <Link onClick={handleClick} to="home" smooth={true} duration={500}>
           <img src={Logo} alt="Logo" style={{ width: "140px" }} />

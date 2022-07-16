@@ -24,7 +24,7 @@ const Skills = () => {
     <div name="skills" className="w-full h-screen bg-dark-background text-gray-300">
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center items-center w-full h-full">
         {/* Intro of page */}
-        <div className="px-10 grid md:grid-cols-2">
+        <div className="flex justify-start w-full pl-10">
           <div>
             <p className="title">Skills</p>
             <p className="py-4">These are some technologies I've worked with</p>
