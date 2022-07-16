@@ -19,7 +19,6 @@ body {
   margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  @apply text-4xl font-bold inline border-b-4 border-pink-600
 }
