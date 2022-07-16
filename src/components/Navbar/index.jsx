@@ -5,6 +5,7 @@ import Navlink from "./components/Navlink";
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 import SocialTab from "./components/SocialTab";
 import "./style.css";
+import { Link } from "react-scroll";
 
 const links = [
   { to: "home", display: "Home" },
@@ -45,8 +46,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300 bg-dark-background">
-      <div>
-        <img src={Logo} alt="Logo" style={{ width: "140px" }} />
+      <div className="hover:cursor-pointer">
+        <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <img src={Logo} alt="Logo" style={{ width: "140px" }} />
+        </Link>
       </div>
       {/* List navlinks */}
       <ul className="hidden md:flex">

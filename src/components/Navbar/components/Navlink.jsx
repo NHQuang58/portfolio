@@ -12,4 +12,4 @@ const Navlink = (props) => {
   );
 };
 
-export default React.memo(Navlink);
+export default Navlink;
