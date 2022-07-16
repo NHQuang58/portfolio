@@ -3,15 +3,17 @@ import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Skills from "./pages/Skills";
 import Work from "./pages/Work";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-dark-background">
+    <div>
       <Navbar />
       <Home />
       <About />
       <Skills />
       <Work />
+      <Footer />
     </div>
   );
 }

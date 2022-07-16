@@ -1,7 +1,12 @@
 import React from "react";
 
 const Footer = () => {
-  return <div className="bg-dark-background text-white">Footer</div>;
+  const currentYear = new Date().getFullYear();
+  return (
+    <div className="bg-dark-background pt-20 text-white w-full flex items-center justify-center">
+      <span className="mr-2">&copy; {currentYear}</span>Nguyen Hong Quang
+    </div>
+  );
 };
 
 export default Footer;

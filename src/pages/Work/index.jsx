@@ -31,8 +31,8 @@ const works = [
 ];
 const Work = () => {
   return (
-    <div name="work" className="w-full h-screen bg-dark-background text-gray-300">
-      <div className="max-w-[1000px] mx-auto pl-10 flex flex-col justify-center items-start w-full h-full">
+    <div name="work" className="w-full sm:pt-0 pt-10 bg-dark-background text-gray-300">
+      <div className="max-w-[1000px] mx-auto px-10 flex flex-col justify-center items-start w-full h-full">
         {/* Intro of page */}
         <div>
           <p className="title">Work</p>
