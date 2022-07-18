@@ -12,7 +12,7 @@ const Home = () => {
         <h2 className="text-4xl text-[#8892b0]">I'm a software development engineer</h2>
         <p className="text-[#8892b0] py-2 max-w-[700px]">
           I have experience in developing embedded devices, and have almost 1 year of experience
-          programming firmware. I have been focusing on developing a complete software system
+          programming firmware. But now, I'm focusing on developing a complete software system
           (backend and frontend) since January 2022.
         </p>
         <p className="text-[#8892b0] py-2 max-w-[700px]">
